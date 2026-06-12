@@ -1,5 +1,6 @@
 # MUSICPEDIA ( sustav za kupnju karata(kupac) i za upravljanje koncertima(administrator))
 Napomena : HTML nema svoju dadoteku jer kad sam radio za HTML projekt sam ju zaboravio promjeniti, a sada da to napravim morao bi promjeniti sve kodove( ima ih oko 50).
+Lozinka za admin: tock ( username = lukas.gavran17@gmail.com)
 ## Opis projekta
 Projek je web aplikacija koja nam radi simulaciju prodaje ulaznica za koncerte. Korisnici u sustavu imaju mogućnost preglda koncerata, upravlje košaricom, kupnju ulaznica i kasnije pregleda narudžbi koji su sami napravili. Administrator ima potpuni uvid u sustav, on može dodavati nove koncerte, brisati, mjenati, administrator može pregladati narudžbe od svih korisnika i može pregledati sve račune. 
 
