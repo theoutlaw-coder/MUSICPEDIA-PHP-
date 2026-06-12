@@ -1,6 +1,7 @@
 # MUSICPEDIA ( sustav za kupnju karata(kupac) i za upravljanje koncertima(administrator))
 Napomena : HTML nema svoju dadoteku jer kad sam radio za HTML projekt sam ju zaboravio promjeniti, a sada da to napravim morao bi promjeniti sve kodove( ima ih oko 50).
 ## ZA TESTIRANJE
+(lozinke i emailovi koriste se samo za stranicu i koristite ih u login.php( kada se pritisne login na navbaru) 
 Lozinka za admin:  Admin:lukas.gavran17@gmail.com  lozinka : tock
 Lozinka za korisnik( napraviti sam novog korisnika ili koristi već kojeg sam ja napravio) ( korisnik: lukas.gavran15@gmail.com lozinka: tocker 
 ## Opis projekta
