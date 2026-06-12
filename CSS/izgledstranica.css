@@ -1,0 +1,105 @@
+/* Globalne varijable */
+:root {
+    --pozadina: #222222;        /* Boja pozadine */
+    --tekst: #E50914;    /*  boja za Tekst i opisi */
+    --naslov: #ff4d55; /* boja za naslove */
+    --lista-unutrašnjost: #141414; /* kontrakst unutar listi */
+}
+
+/* pisanje koda za stil stranice */
+
+/* background color je tamno siva( ili koju postavim u --pozadina */
+html {
+    background-color: var(--pozadina);
+}
+
+/* stil za glavni naslov koji se nalazi u head( ne u body) */
+h1 {
+    color: var(--naslov);
+    font-family: 'Segoe UI', 'Times New Roman', Times, serif,;
+    margin: 40px 40px 10px 40px;
+}
+
+/* Stil za sve unutar(body) */
+body {
+    background-color: var(--pozadina);
+    color: var(--tekst);
+    font-family: 'Segoe UI', 'Times New Roman', Times, serif,;
+    margin: 0px 40px 40px 40px;
+    line-height: 1.6;
+}
+
+/* Svi drugi naslovi na stranicama*/
+h2, h3, h4, h5 {
+    color: var(--naslov);
+}
+
+/* Odlomci teksta( znaci gdje god sam koristio p naredbu */
+p {
+    color: var(--tekst);
+}
+
+/* Stil za liste( popis zanrova, popis pjesama i albuma */
+ol, ul {
+    background-color: var(--lista-unutrašnjost);
+    padding: 20px 20px 20px 40px;
+    border-radius: 8px;
+    border-left: 5px solid var(--naslov); /* Svjetlo crveni rub s lijeve strane */
+}
+
+/* Tekst koji se nalazi unutar listi */
+li {
+    margin-bottom: 8px;
+    color: var(--tekst); 
+}
+ž/* Stil za youtube video */
+iframe {
+    border: 3px solid #444;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.izbornik {
+  margin-right: 20px;
+  font-weight: bold;
+  color: crimson;
+}
+a{
+    font-weight: bold;
+    color: crimson;
+}
+.kontakt-forma {
+    background-color: #504b4b;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    border-left: 5px solid #77080e;
+}
+
+input[type="text"], 
+input[type="email"], 
+select, 
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background-color: #333;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 4px;
+}
+
+.gumb-posalji {
+    background-color: #E50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.gumb-posalji:hover {
+    background-color: #b20710;
+}
+
